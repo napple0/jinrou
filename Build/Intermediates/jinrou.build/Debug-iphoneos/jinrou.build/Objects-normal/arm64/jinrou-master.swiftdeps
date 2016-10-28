@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "1fd857d9c9f47c0c6b67aea80e4dbc86"
+build_time: [530957201, 691092000]
+inputs:
+  "/Users/k13052kk/Desktop/jinrou/jinrou/ViewController1.swift": [527526508, 0]
+  "/Users/k13052kk/Desktop/jinrou/jinrou/AppDelegate.swift": [524479134, 0]
+  "/Users/k13052kk/Desktop/jinrou/jinrou/ViewController2.swift": [527526586, 0]

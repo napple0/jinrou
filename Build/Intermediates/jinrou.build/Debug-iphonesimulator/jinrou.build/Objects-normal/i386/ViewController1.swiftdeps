@@ -1,0 +1,518 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController1"
+provides-nominal:
+- "C6jinrou15ViewController1"
+provides-member:
+- ["C6jinrou15ViewController1", ""]
+provides-dynamic-lookup:
+- "tapedMinusButton"
+- "tapedPlusButton"
+- "minus"
+- "appDelegate"
+- "tapedStrat"
+- "didReceiveMemoryWarning"
+- "viewDidLoad"
+- "count"
+- "plus"
+- "label"
+depends-top-level:
+- "ViewController1"
+- !private "++"
+- !private "StringLiteralType"
+- "UIApplication"
+- "AnyObject"
+- !private "UnicodeScalarType"
+- !private "ViewController2"
+- "AppDelegate"
+- !private ">="
+- !private "<="
+- !private "BooleanLiteralType"
+- !private "UIStoryboard"
+- "UIButton"
+- !private "String"
+- !private "--"
+- "UIViewController"
+- "UILabel"
+depends-member:
+- !private ["PSs9AnyObject", "String"]
+- ["PSs9AnyObject", "UIApplication"]
+- ["PSs9AnyObject", "appDelegate"]
+- ["PSs9AnyObject", "count"]
+- ["PSs9AnyObject", "delegate"]
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "instantiateViewControllerWithIdentifier"]
+- ["PSs9AnyObject", "label"]
+- !private ["PSs9AnyObject", "message"]
+- ["PSs9AnyObject", "minus"]
+- ["PSs9AnyObject", "plus"]
+- !private ["PSs9AnyObject", "presentViewController"]
+- ["PSs9AnyObject", "sharedApplication"]
+- !private ["PSs9AnyObject", "storyboard"]
+- ["PSs9AnyObject", "tapedMinusButton"]
+- ["PSs9AnyObject", "tapedPlusButton"]
+- ["PSs9AnyObject", "tapedStrat"]
+- !private ["PSs9AnyObject", "text"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["C6jinrou11AppDelegate", "message"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "String"]
+- ["PSs11CVarArgType", "UIApplication"]
+- ["PSs11CVarArgType", "appDelegate"]
+- ["PSs11CVarArgType", "count"]
+- ["PSs11CVarArgType", "delegate"]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "instantiateViewControllerWithIdentifier"]
+- ["PSs11CVarArgType", "label"]
+- !private ["PSs11CVarArgType", "message"]
+- ["PSs11CVarArgType", "minus"]
+- ["PSs11CVarArgType", "plus"]
+- !private ["PSs11CVarArgType", "presentViewController"]
+- ["PSs11CVarArgType", "sharedApplication"]
+- !private ["PSs11CVarArgType", "storyboard"]
+- ["PSs11CVarArgType", "tapedMinusButton"]
+- ["PSs11CVarArgType", "tapedPlusButton"]
+- ["PSs11CVarArgType", "tapedStrat"]
+- !private ["PSs11CVarArgType", "text"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "String"]
+- ["PSs23CustomStringConvertible", "UIApplication"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["PSs23CustomStringConvertible", "appDelegate"]
+- ["PSs23CustomStringConvertible", "count"]
+- ["PSs23CustomStringConvertible", "delegate"]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "instantiateViewControllerWithIdentifier"]
+- ["PSs23CustomStringConvertible", "label"]
+- !private ["PSs23CustomStringConvertible", "message"]
+- ["PSs23CustomStringConvertible", "minus"]
+- ["PSs23CustomStringConvertible", "plus"]
+- !private ["PSs23CustomStringConvertible", "presentViewController"]
+- ["PSs23CustomStringConvertible", "sharedApplication"]
+- !private ["PSs23CustomStringConvertible", "storyboard"]
+- ["PSs23CustomStringConvertible", "tapedMinusButton"]
+- ["PSs23CustomStringConvertible", "tapedPlusButton"]
+- ["PSs23CustomStringConvertible", "tapedStrat"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "String"]
+- ["PSs9Equatable", "UIApplication"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "appDelegate"]
+- ["PSs9Equatable", "count"]
+- ["PSs9Equatable", "delegate"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "instantiateViewControllerWithIdentifier"]
+- ["PSs9Equatable", "label"]
+- !private ["PSs9Equatable", "message"]
+- ["PSs9Equatable", "minus"]
+- ["PSs9Equatable", "plus"]
+- !private ["PSs9Equatable", "presentViewController"]
+- ["PSs9Equatable", "sharedApplication"]
+- !private ["PSs9Equatable", "storyboard"]
+- ["PSs9Equatable", "tapedMinusButton"]
+- ["PSs9Equatable", "tapedPlusButton"]
+- ["PSs9Equatable", "tapedStrat"]
+- !private ["PSs9Equatable", "text"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "String"]
+- ["PSs8Hashable", "UIApplication"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "appDelegate"]
+- ["PSs8Hashable", "count"]
+- ["PSs8Hashable", "delegate"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "instantiateViewControllerWithIdentifier"]
+- ["PSs8Hashable", "label"]
+- !private ["PSs8Hashable", "message"]
+- ["PSs8Hashable", "minus"]
+- ["PSs8Hashable", "plus"]
+- !private ["PSs8Hashable", "presentViewController"]
+- ["PSs8Hashable", "sharedApplication"]
+- !private ["PSs8Hashable", "storyboard"]
+- ["PSs8Hashable", "tapedMinusButton"]
+- ["PSs8Hashable", "tapedPlusButton"]
+- ["PSs8Hashable", "tapedStrat"]
+- !private ["PSs8Hashable", "text"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "String"]
+- ["PSo8NSCoding", "UIApplication"]
+- ["PSo8NSCoding", "appDelegate"]
+- ["PSo8NSCoding", "count"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "label"]
+- ["PSo8NSCoding", "minus"]
+- ["PSo8NSCoding", "plus"]
+- !private ["PSo8NSCoding", "presentViewController"]
+- !private ["PSo8NSCoding", "storyboard"]
+- ["PSo8NSCoding", "tapedMinusButton"]
+- ["PSo8NSCoding", "tapedPlusButton"]
+- ["PSo8NSCoding", "tapedStrat"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "String"]
+- ["PSo26NSExtensionRequestHandling", "UIApplication"]
+- ["PSo26NSExtensionRequestHandling", "appDelegate"]
+- ["PSo26NSExtensionRequestHandling", "count"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "label"]
+- ["PSo26NSExtensionRequestHandling", "minus"]
+- ["PSo26NSExtensionRequestHandling", "plus"]
+- !private ["PSo26NSExtensionRequestHandling", "presentViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "storyboard"]
+- ["PSo26NSExtensionRequestHandling", "tapedMinusButton"]
+- ["PSo26NSExtensionRequestHandling", "tapedPlusButton"]
+- ["PSo26NSExtensionRequestHandling", "tapedStrat"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "AppDelegate"]
+- !private ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UILabel"]
+- !private ["CSo8NSObject", "UIStoryboard"]
+- !private ["CSo8NSObject", "ViewController2"]
+- ["CSo8NSObject", "appDelegate"]
+- ["CSo8NSObject", "count"]
+- ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "instantiateViewControllerWithIdentifier"]
+- ["CSo8NSObject", "label"]
+- !private ["CSo8NSObject", "message"]
+- ["CSo8NSObject", "minus"]
+- ["CSo8NSObject", "plus"]
+- !private ["CSo8NSObject", "presentViewController"]
+- ["CSo8NSObject", "sharedApplication"]
+- !private ["CSo8NSObject", "storyboard"]
+- ["CSo8NSObject", "tapedMinusButton"]
+- ["CSo8NSObject", "tapedPlusButton"]
+- ["CSo8NSObject", "tapedStrat"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- ["PSo16NSObjectProtocol", "UIApplication"]
+- ["PSo16NSObjectProtocol", "appDelegate"]
+- ["PSo16NSObjectProtocol", "count"]
+- ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "instantiateViewControllerWithIdentifier"]
+- ["PSo16NSObjectProtocol", "label"]
+- !private ["PSo16NSObjectProtocol", "message"]
+- ["PSo16NSObjectProtocol", "minus"]
+- ["PSo16NSObjectProtocol", "plus"]
+- !private ["PSo16NSObjectProtocol", "presentViewController"]
+- ["PSo16NSObjectProtocol", "sharedApplication"]
+- !private ["PSo16NSObjectProtocol", "storyboard"]
+- ["PSo16NSObjectProtocol", "tapedMinusButton"]
+- ["PSo16NSObjectProtocol", "tapedPlusButton"]
+- ["PSo16NSObjectProtocol", "tapedStrat"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "String"]
+- ["PSo21UIAppearanceContainer", "UIApplication"]
+- ["PSo21UIAppearanceContainer", "appDelegate"]
+- ["PSo21UIAppearanceContainer", "count"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "label"]
+- ["PSo21UIAppearanceContainer", "minus"]
+- ["PSo21UIAppearanceContainer", "plus"]
+- !private ["PSo21UIAppearanceContainer", "presentViewController"]
+- !private ["PSo21UIAppearanceContainer", "storyboard"]
+- ["PSo21UIAppearanceContainer", "tapedMinusButton"]
+- ["PSo21UIAppearanceContainer", "tapedPlusButton"]
+- ["PSo21UIAppearanceContainer", "tapedStrat"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["CSo13UIApplication", "delegate"]
+- ["CSo13UIApplication", "sharedApplication"]
+- !private ["PSo21UIApplicationDelegate", "message"]
+- !private ["PSo18UIContentContainer", "String"]
+- ["PSo18UIContentContainer", "UIApplication"]
+- ["PSo18UIContentContainer", "appDelegate"]
+- ["PSo18UIContentContainer", "count"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "label"]
+- ["PSo18UIContentContainer", "minus"]
+- ["PSo18UIContentContainer", "plus"]
+- !private ["PSo18UIContentContainer", "presentViewController"]
+- !private ["PSo18UIContentContainer", "storyboard"]
+- ["PSo18UIContentContainer", "tapedMinusButton"]
+- ["PSo18UIContentContainer", "tapedPlusButton"]
+- ["PSo18UIContentContainer", "tapedStrat"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "String"]
+- ["PSo18UIFocusEnvironment", "UIApplication"]
+- ["PSo18UIFocusEnvironment", "appDelegate"]
+- ["PSo18UIFocusEnvironment", "count"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "label"]
+- ["PSo18UIFocusEnvironment", "minus"]
+- ["PSo18UIFocusEnvironment", "plus"]
+- !private ["PSo18UIFocusEnvironment", "presentViewController"]
+- !private ["PSo18UIFocusEnvironment", "storyboard"]
+- ["PSo18UIFocusEnvironment", "tapedMinusButton"]
+- ["PSo18UIFocusEnvironment", "tapedPlusButton"]
+- ["PSo18UIFocusEnvironment", "tapedStrat"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "AppDelegate"]
+- !private ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIApplication"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UILabel"]
+- !private ["CSo11UIResponder", "UIStoryboard"]
+- !private ["CSo11UIResponder", "ViewController2"]
+- ["CSo11UIResponder", "appDelegate"]
+- ["CSo11UIResponder", "count"]
+- ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "label"]
+- !private ["CSo11UIResponder", "message"]
+- ["CSo11UIResponder", "minus"]
+- ["CSo11UIResponder", "plus"]
+- !private ["CSo11UIResponder", "presentViewController"]
+- ["CSo11UIResponder", "sharedApplication"]
+- !private ["CSo11UIResponder", "storyboard"]
+- ["CSo11UIResponder", "tapedMinusButton"]
+- ["CSo11UIResponder", "tapedPlusButton"]
+- ["CSo11UIResponder", "tapedStrat"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "String"]
+- ["PSo16UIStateRestoring", "UIApplication"]
+- ["PSo16UIStateRestoring", "appDelegate"]
+- ["PSo16UIStateRestoring", "count"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "label"]
+- ["PSo16UIStateRestoring", "minus"]
+- ["PSo16UIStateRestoring", "plus"]
+- !private ["PSo16UIStateRestoring", "presentViewController"]
+- !private ["PSo16UIStateRestoring", "storyboard"]
+- ["PSo16UIStateRestoring", "tapedMinusButton"]
+- ["PSo16UIStateRestoring", "tapedPlusButton"]
+- ["PSo16UIStateRestoring", "tapedStrat"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo12UIStoryboard", "instantiateViewControllerWithIdentifier"]
+- !private ["PSo18UITraitEnvironment", "String"]
+- ["PSo18UITraitEnvironment", "UIApplication"]
+- ["PSo18UITraitEnvironment", "appDelegate"]
+- ["PSo18UITraitEnvironment", "count"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "label"]
+- ["PSo18UITraitEnvironment", "minus"]
+- ["PSo18UITraitEnvironment", "plus"]
+- !private ["PSo18UITraitEnvironment", "presentViewController"]
+- !private ["PSo18UITraitEnvironment", "storyboard"]
+- ["PSo18UITraitEnvironment", "tapedMinusButton"]
+- ["PSo18UITraitEnvironment", "tapedPlusButton"]
+- ["PSo18UITraitEnvironment", "tapedStrat"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "AppDelegate"]
+- !private ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UIApplication"]
+- ["CSo16UIViewController", "UIButton"]
+- ["CSo16UIViewController", "UILabel"]
+- !private ["CSo16UIViewController", "UIStoryboard"]
+- !private ["CSo16UIViewController", "ViewController2"]
+- ["CSo16UIViewController", "appDelegate"]
+- ["CSo16UIViewController", "count"]
+- !private ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "label"]
+- ["CSo16UIViewController", "minus"]
+- ["CSo16UIViewController", "plus"]
+- !private ["CSo16UIViewController", "presentViewController"]
+- !private ["CSo16UIViewController", "storyboard"]
+- ["CSo16UIViewController", "tapedMinusButton"]
+- ["CSo16UIViewController", "tapedPlusButton"]
+- ["CSo16UIViewController", "tapedStrat"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- ["C6jinrou15ViewController1", "AnyObject"]
+- ["C6jinrou15ViewController1", "AppDelegate"]
+- !private ["C6jinrou15ViewController1", "String"]
+- ["C6jinrou15ViewController1", "UIApplication"]
+- ["C6jinrou15ViewController1", "UIButton"]
+- ["C6jinrou15ViewController1", "UILabel"]
+- !private ["C6jinrou15ViewController1", "UIStoryboard"]
+- !private ["C6jinrou15ViewController1", "ViewController2"]
+- ["C6jinrou15ViewController1", "appDelegate"]
+- ["C6jinrou15ViewController1", "count"]
+- ["C6jinrou15ViewController1", "deinit"]
+- ["C6jinrou15ViewController1", "didReceiveMemoryWarning"]
+- ["C6jinrou15ViewController1", "init"]
+- ["C6jinrou15ViewController1", "label"]
+- ["C6jinrou15ViewController1", "minus"]
+- ["C6jinrou15ViewController1", "plus"]
+- !private ["C6jinrou15ViewController1", "presentViewController"]
+- !private ["C6jinrou15ViewController1", "storyboard"]
+- ["C6jinrou15ViewController1", "tapedMinusButton"]
+- ["C6jinrou15ViewController1", "tapedPlusButton"]
+- ["C6jinrou15ViewController1", "tapedStrat"]
+- ["C6jinrou15ViewController1", "viewDidLoad"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "text"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "C6jinrou11AppDelegate"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo13UIApplication"
+- !private "PSo21UIApplicationDelegate"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- !private "CSo12UIStoryboard"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- "C6jinrou15ViewController1"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+interface-hash: "ec6c69155fb787f08480a8f4264a6129"
