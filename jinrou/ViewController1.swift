@@ -49,7 +49,7 @@ class ViewController1: UIViewController {
     }
     @IBAction func tapedStrat(sender: AnyObject) {
         let storyboard : UIStoryboard = self.storyboard!
-        let nextview = storyboard.instantiateViewControllerWithIdentifier("next") as! ViewController2
+        let nextview = storyboard.instantiateViewControllerWithIdentifier("go2") as! ViewController2
         self.presentViewController(nextview, animated: true, completion: nil)
     }
     

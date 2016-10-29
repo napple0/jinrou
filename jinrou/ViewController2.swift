@@ -15,6 +15,9 @@ class ViewController2:  UIViewController{
     
     var count = 0
 
+    var str:String = ""
+    var str2:String = "kojima"
+    
     //0,1人狼 2占い師 3怪盗 4,5,6,7村人
     var n3 = [0,1,2,3,4]
     var n4 = [0,1,2,3,4,5]
@@ -63,7 +66,7 @@ class ViewController2:  UIViewController{
     
     //シャッフルした後の配列の中身を確認するメソッド
     func a(){
-        var str:String = ""
+        
         for var i=0;i<num;i=i+1{
             if(m[i]==0){str=str+"人狼\n"}
             else if(m[i]==1){str=str+"人狼\n"}
@@ -74,7 +77,17 @@ class ViewController2:  UIViewController{
         label3.text = str
 
     }
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if (segue.identifier == "segue"){
+            let view3:ViewController3 = segue.destinationViewController as! ViewController3
+            view3.sendText = self.str2
+        }
+        
+    }
     
-    
-    
+    @IBAction func tapedNext(sender: AnyObject) {
+        let storyboard2: UIStoryboard = self.storyboard!
+        let nextview2 = storyboard2.instantiateViewControllerWithIdentifier("go3") as! ViewController3
+        self.presentViewController(nextview2, animated: true, completion: nil)
+    }
 }

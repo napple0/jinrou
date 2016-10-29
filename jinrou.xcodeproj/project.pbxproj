@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B42F6571DC371410093A6F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B42F6561DC371410093A6F5 /* Main.storyboard */; };
+		5BC1CC3D1DC3A59300566271 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC1CC3C1DC3A59300566271 /* ViewController3.swift */; };
 		5BED7AE81D3A7C27006FBB98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BED7AE71D3A7C27006FBB98 /* AppDelegate.swift */; };
 		5BED7AEA1D3A7C27006FBB98 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BED7AE91D3A7C27006FBB98 /* ViewController1.swift */; };
 		5BED7AEF1D3A7C27006FBB98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BED7AEE1D3A7C27006FBB98 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		5B42F6561DC371410093A6F5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5BC1CC3C1DC3A59300566271 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		5BED7AE41D3A7C26006FBB98 /* jinrou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jinrou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BED7AE71D3A7C27006FBB98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BED7AE91D3A7C27006FBB98 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
@@ -100,8 +102,9 @@
 				5BED7AE71D3A7C27006FBB98 /* AppDelegate.swift */,
 				5BED7AE91D3A7C27006FBB98 /* ViewController1.swift */,
 				5BED7B151D3A7E1F006FBB98 /* ViewController2.swift */,
-				5BED7AEE1D3A7C27006FBB98 /* Assets.xcassets */,
+				5BC1CC3C1DC3A59300566271 /* ViewController3.swift */,
 				5B42F6561DC371410093A6F5 /* Main.storyboard */,
+				5BED7AEE1D3A7C27006FBB98 /* Assets.xcassets */,
 				5BED7AF31D3A7C27006FBB98 /* Info.plist */,
 			);
 			path = jinrou;
@@ -260,6 +263,7 @@
 			files = (
 				5BED7AEA1D3A7C27006FBB98 /* ViewController1.swift in Sources */,
 				5BED7AE81D3A7C27006FBB98 /* AppDelegate.swift in Sources */,
+				5BC1CC3D1DC3A59300566271 /* ViewController3.swift in Sources */,
 				5BED7B161D3A7E1F006FBB98 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

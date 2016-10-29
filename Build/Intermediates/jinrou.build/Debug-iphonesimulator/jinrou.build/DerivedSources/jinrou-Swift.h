@@ -130,12 +130,15 @@ SWIFT_CLASS("_TtC6jinrou15ViewController1")
 @end
 
 @class UIAlertView;
+@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC6jinrou15ViewController2")
 @interface ViewController2 : UIViewController
 @property (nonatomic, weak) IBOutlet UILabel * __null_unspecified label2;
 @property (nonatomic, weak) IBOutlet UILabel * __null_unspecified label3;
 @property (nonatomic) NSInteger count;
+@property (nonatomic, copy) NSString * __nonnull str;
+@property (nonatomic, copy) NSString * __nonnull str2;
 @property (nonatomic, copy) NSArray<NSNumber *> * __nonnull n3;
 @property (nonatomic, copy) NSArray<NSNumber *> * __nonnull n4;
 @property (nonatomic, copy) NSArray<NSNumber *> * __nonnull n5;
@@ -148,6 +151,19 @@ SWIFT_CLASS("_TtC6jinrou15ViewController2")
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (void)a;
+- (void)prepareForSegue:(UIStoryboardSegue * __nonnull)segue sender:(id __nullable)sender;
+- (IBAction)tapedNext:(id __nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC6jinrou15ViewController3")
+@interface ViewController3 : UIViewController
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified jobLabel;
+@property (nonatomic, copy) NSString * __nonnull sendText;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
