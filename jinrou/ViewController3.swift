@@ -10,10 +10,8 @@ import Foundation
 import UIKit
 
 class ViewController3: UIViewController{
+    var sendText:String = ""
     @IBOutlet weak var jobLabel: UILabel!
-    //@IBOutlet weak var jobImage: UIImageView!
-    
-    var sendText = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()

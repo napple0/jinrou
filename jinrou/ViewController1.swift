@@ -46,11 +46,9 @@ class ViewController1: UIViewController {
         }
         appDelegate.message = count
         label.text = String(count)
-    }
+  }
     @IBAction func tapedStrat(sender: AnyObject) {
-        let storyboard : UIStoryboard = self.storyboard!
-        let nextview = storyboard.instantiateViewControllerWithIdentifier("go2") as! ViewController2
-        self.presentViewController(nextview, animated: true, completion: nil)
+        performSegueWithIdentifier("go2", sender: nil)
     }
     
 }

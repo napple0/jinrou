@@ -16,7 +16,6 @@ class ViewController2:  UIViewController{
     var count = 0
 
     var str:String = ""
-    var str2:String = "kojima"
     
     //0,1人狼 2占い師 3怪盗 4,5,6,7村人
     var n3 = [0,1,2,3,4]
@@ -78,16 +77,12 @@ class ViewController2:  UIViewController{
 
     }
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if (segue.identifier == "segue"){
             let view3:ViewController3 = segue.destinationViewController as! ViewController3
-            view3.sendText = self.str2
-        }
+            view3.sendText = "kojimakentaro"
         
     }
     
     @IBAction func tapedNext(sender: AnyObject) {
-        let storyboard2: UIStoryboard = self.storyboard!
-        let nextview2 = storyboard2.instantiateViewControllerWithIdentifier("go3") as! ViewController3
-        self.presentViewController(nextview2, animated: true, completion: nil)
+        performSegueWithIdentifier("go3", sender: nil)
     }
 }

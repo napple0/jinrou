@@ -6,51 +6,48 @@ provides-nominal:
 provides-member:
 - ["C6jinrou15ViewController2", ""]
 provides-dynamic-lookup:
-- "a"
-- "m"
+- "n6"
 - "prepareForSegue"
-- "viewDidLoad"
-- "n7"
+- "label3"
+- "num"
 - "didReceiveMemoryWarning"
+- "n5"
+- "m"
+- "n7"
+- "count"
+- "n4"
+- "str"
+- "label2"
+- "a"
+- "viewDidLoad"
+- "appDelegate"
 - "alert"
 - "n3"
-- "count"
-- "label2"
-- "num"
-- "n5"
 - "tapedNext"
-- "appDelegate"
-- "str"
-- "n6"
-- "str2"
-- "n4"
-- "label3"
 depends-top-level:
-- "UIViewController"
-- !private "-"
-- "UILabel"
-- "UIAlertView"
-- !private "BooleanLiteralType"
-- !private "swap"
-- "Array"
-- !private "ViewController3"
-- !private ">="
 - !private "..<"
-- "StringLiteralType"
-- !private "+"
-- "ViewController2"
-- "AnyObject"
-- !private "arc4random_uniform"
+- !private ">="
 - "String"
-- "Int"
-- !private "!="
-- "UIStoryboardSegue"
-- !private "UIStoryboard"
-- "UIApplication"
-- !private "=="
+- !private "+"
 - !private "<"
-- "AppDelegate"
+- "ViewController2"
+- !private "arc4random_uniform"
+- "Int"
+- "UILabel"
+- "UIStoryboardSegue"
 - !private "UInt32"
+- !private "ViewController3"
+- "UIAlertView"
+- "StringLiteralType"
+- !private "-"
+- !private "!="
+- "UIApplication"
+- "AnyObject"
+- "UIViewController"
+- !private "swap"
+- "AppDelegate"
+- !private "=="
+- "Array"
 depends-member:
 - !private ["PSs9AnyObject", "Int"]
 - !private ["PSs9AnyObject", "String"]
@@ -65,9 +62,7 @@ depends-member:
 - ["PSs9AnyObject", "delegate"]
 - !private ["PSs9AnyObject", "destinationViewController"]
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]
-- !private ["PSs9AnyObject", "identifier"]
 - ["PSs9AnyObject", "init"]
-- !private ["PSs9AnyObject", "instantiateViewControllerWithIdentifier"]
 - ["PSs9AnyObject", "label2"]
 - ["PSs9AnyObject", "label3"]
 - ["PSs9AnyObject", "m"]
@@ -78,15 +73,13 @@ depends-member:
 - ["PSs9AnyObject", "n6"]
 - ["PSs9AnyObject", "n7"]
 - ["PSs9AnyObject", "num"]
+- !private ["PSs9AnyObject", "performSegueWithIdentifier"]
 - ["PSs9AnyObject", "prepareForSegue"]
-- !private ["PSs9AnyObject", "presentViewController"]
 - !private ["PSs9AnyObject", "sendText"]
 - ["PSs9AnyObject", "sharedApplication"]
 - ["PSs9AnyObject", "shuffleArray"]
 - ["PSs9AnyObject", "shuffleBang"]
-- !private ["PSs9AnyObject", "storyboard"]
 - ["PSs9AnyObject", "str"]
-- ["PSs9AnyObject", "str2"]
 - !private ["PSs9AnyObject", "swap"]
 - ["PSs9AnyObject", "tapedNext"]
 - !private ["PSs9AnyObject", "text"]
@@ -135,9 +128,7 @@ depends-member:
 - ["PSs11CVarArgType", "delegate"]
 - !private ["PSs11CVarArgType", "destinationViewController"]
 - ["PSs11CVarArgType", "didReceiveMemoryWarning"]
-- !private ["PSs11CVarArgType", "identifier"]
 - ["PSs11CVarArgType", "init"]
-- !private ["PSs11CVarArgType", "instantiateViewControllerWithIdentifier"]
 - ["PSs11CVarArgType", "label2"]
 - ["PSs11CVarArgType", "label3"]
 - ["PSs11CVarArgType", "m"]
@@ -148,15 +139,13 @@ depends-member:
 - ["PSs11CVarArgType", "n6"]
 - ["PSs11CVarArgType", "n7"]
 - ["PSs11CVarArgType", "num"]
+- !private ["PSs11CVarArgType", "performSegueWithIdentifier"]
 - ["PSs11CVarArgType", "prepareForSegue"]
-- !private ["PSs11CVarArgType", "presentViewController"]
 - !private ["PSs11CVarArgType", "sendText"]
 - ["PSs11CVarArgType", "sharedApplication"]
 - ["PSs11CVarArgType", "shuffleArray"]
 - ["PSs11CVarArgType", "shuffleBang"]
-- !private ["PSs11CVarArgType", "storyboard"]
 - ["PSs11CVarArgType", "str"]
-- ["PSs11CVarArgType", "str2"]
 - !private ["PSs11CVarArgType", "swap"]
 - ["PSs11CVarArgType", "tapedNext"]
 - !private ["PSs11CVarArgType", "text"]
@@ -201,9 +190,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "delegate"]
 - !private ["PSs23CustomStringConvertible", "destinationViewController"]
 - ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
-- !private ["PSs23CustomStringConvertible", "identifier"]
 - ["PSs23CustomStringConvertible", "init"]
-- !private ["PSs23CustomStringConvertible", "instantiateViewControllerWithIdentifier"]
 - ["PSs23CustomStringConvertible", "label2"]
 - ["PSs23CustomStringConvertible", "label3"]
 - ["PSs23CustomStringConvertible", "m"]
@@ -214,15 +201,13 @@ depends-member:
 - ["PSs23CustomStringConvertible", "n6"]
 - ["PSs23CustomStringConvertible", "n7"]
 - ["PSs23CustomStringConvertible", "num"]
+- !private ["PSs23CustomStringConvertible", "performSegueWithIdentifier"]
 - ["PSs23CustomStringConvertible", "prepareForSegue"]
-- !private ["PSs23CustomStringConvertible", "presentViewController"]
 - !private ["PSs23CustomStringConvertible", "sendText"]
 - ["PSs23CustomStringConvertible", "sharedApplication"]
 - ["PSs23CustomStringConvertible", "shuffleArray"]
 - ["PSs23CustomStringConvertible", "shuffleBang"]
-- !private ["PSs23CustomStringConvertible", "storyboard"]
 - ["PSs23CustomStringConvertible", "str"]
-- ["PSs23CustomStringConvertible", "str2"]
 - !private ["PSs23CustomStringConvertible", "subscript"]
 - !private ["PSs23CustomStringConvertible", "swap"]
 - ["PSs23CustomStringConvertible", "tapedNext"]
@@ -247,9 +232,7 @@ depends-member:
 - ["PSs9Equatable", "delegate"]
 - !private ["PSs9Equatable", "destinationViewController"]
 - ["PSs9Equatable", "didReceiveMemoryWarning"]
-- !private ["PSs9Equatable", "identifier"]
 - ["PSs9Equatable", "init"]
-- !private ["PSs9Equatable", "instantiateViewControllerWithIdentifier"]
 - ["PSs9Equatable", "label2"]
 - ["PSs9Equatable", "label3"]
 - ["PSs9Equatable", "m"]
@@ -260,15 +243,13 @@ depends-member:
 - ["PSs9Equatable", "n6"]
 - ["PSs9Equatable", "n7"]
 - ["PSs9Equatable", "num"]
+- !private ["PSs9Equatable", "performSegueWithIdentifier"]
 - ["PSs9Equatable", "prepareForSegue"]
-- !private ["PSs9Equatable", "presentViewController"]
 - !private ["PSs9Equatable", "sendText"]
 - ["PSs9Equatable", "sharedApplication"]
 - ["PSs9Equatable", "shuffleArray"]
 - ["PSs9Equatable", "shuffleBang"]
-- !private ["PSs9Equatable", "storyboard"]
 - ["PSs9Equatable", "str"]
-- ["PSs9Equatable", "str2"]
 - !private ["PSs9Equatable", "swap"]
 - ["PSs9Equatable", "tapedNext"]
 - !private ["PSs9Equatable", "text"]
@@ -299,9 +280,7 @@ depends-member:
 - ["PSs8Hashable", "delegate"]
 - !private ["PSs8Hashable", "destinationViewController"]
 - ["PSs8Hashable", "didReceiveMemoryWarning"]
-- !private ["PSs8Hashable", "identifier"]
 - ["PSs8Hashable", "init"]
-- !private ["PSs8Hashable", "instantiateViewControllerWithIdentifier"]
 - ["PSs8Hashable", "label2"]
 - ["PSs8Hashable", "label3"]
 - ["PSs8Hashable", "m"]
@@ -312,15 +291,13 @@ depends-member:
 - ["PSs8Hashable", "n6"]
 - ["PSs8Hashable", "n7"]
 - ["PSs8Hashable", "num"]
+- !private ["PSs8Hashable", "performSegueWithIdentifier"]
 - ["PSs8Hashable", "prepareForSegue"]
-- !private ["PSs8Hashable", "presentViewController"]
 - !private ["PSs8Hashable", "sendText"]
 - ["PSs8Hashable", "sharedApplication"]
 - ["PSs8Hashable", "shuffleArray"]
 - ["PSs8Hashable", "shuffleBang"]
-- !private ["PSs8Hashable", "storyboard"]
 - ["PSs8Hashable", "str"]
-- ["PSs8Hashable", "str2"]
 - !private ["PSs8Hashable", "swap"]
 - ["PSs8Hashable", "tapedNext"]
 - !private ["PSs8Hashable", "text"]
@@ -395,14 +372,12 @@ depends-member:
 - ["PSo8NSCoding", "n6"]
 - ["PSo8NSCoding", "n7"]
 - ["PSo8NSCoding", "num"]
+- !private ["PSo8NSCoding", "performSegueWithIdentifier"]
 - ["PSo8NSCoding", "prepareForSegue"]
-- !private ["PSo8NSCoding", "presentViewController"]
 - !private ["PSo8NSCoding", "sendText"]
 - ["PSo8NSCoding", "shuffleArray"]
 - ["PSo8NSCoding", "shuffleBang"]
-- !private ["PSo8NSCoding", "storyboard"]
 - ["PSo8NSCoding", "str"]
-- ["PSo8NSCoding", "str2"]
 - !private ["PSo8NSCoding", "swap"]
 - ["PSo8NSCoding", "tapedNext"]
 - !private ["PSo8NSCoding", "text"]
@@ -429,14 +404,12 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "n6"]
 - ["PSo26NSExtensionRequestHandling", "n7"]
 - ["PSo26NSExtensionRequestHandling", "num"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
 - ["PSo26NSExtensionRequestHandling", "prepareForSegue"]
-- !private ["PSo26NSExtensionRequestHandling", "presentViewController"]
 - !private ["PSo26NSExtensionRequestHandling", "sendText"]
 - ["PSo26NSExtensionRequestHandling", "shuffleArray"]
 - ["PSo26NSExtensionRequestHandling", "shuffleBang"]
-- !private ["PSo26NSExtensionRequestHandling", "storyboard"]
 - ["PSo26NSExtensionRequestHandling", "str"]
-- ["PSo26NSExtensionRequestHandling", "str2"]
 - !private ["PSo26NSExtensionRequestHandling", "swap"]
 - ["PSo26NSExtensionRequestHandling", "tapedNext"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
@@ -448,7 +421,6 @@ depends-member:
 - ["CSo8NSObject", "UIAlertView"]
 - ["CSo8NSObject", "UIApplication"]
 - ["CSo8NSObject", "UILabel"]
-- !private ["CSo8NSObject", "UIStoryboard"]
 - ["CSo8NSObject", "UIStoryboardSegue"]
 - !private ["CSo8NSObject", "UInt32"]
 - !private ["CSo8NSObject", "ViewController3"]
@@ -460,9 +432,7 @@ depends-member:
 - ["CSo8NSObject", "delegate"]
 - !private ["CSo8NSObject", "destinationViewController"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
-- !private ["CSo8NSObject", "identifier"]
 - ["CSo8NSObject", "init"]
-- !private ["CSo8NSObject", "instantiateViewControllerWithIdentifier"]
 - ["CSo8NSObject", "label2"]
 - ["CSo8NSObject", "label3"]
 - ["CSo8NSObject", "m"]
@@ -473,15 +443,13 @@ depends-member:
 - ["CSo8NSObject", "n6"]
 - ["CSo8NSObject", "n7"]
 - ["CSo8NSObject", "num"]
+- !private ["CSo8NSObject", "performSegueWithIdentifier"]
 - ["CSo8NSObject", "prepareForSegue"]
-- !private ["CSo8NSObject", "presentViewController"]
 - !private ["CSo8NSObject", "sendText"]
 - ["CSo8NSObject", "sharedApplication"]
 - ["CSo8NSObject", "shuffleArray"]
 - ["CSo8NSObject", "shuffleBang"]
-- !private ["CSo8NSObject", "storyboard"]
 - ["CSo8NSObject", "str"]
-- ["CSo8NSObject", "str2"]
 - !private ["CSo8NSObject", "swap"]
 - ["CSo8NSObject", "tapedNext"]
 - !private ["CSo8NSObject", "text"]
@@ -499,9 +467,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "delegate"]
 - !private ["PSo16NSObjectProtocol", "destinationViewController"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
-- !private ["PSo16NSObjectProtocol", "identifier"]
 - ["PSo16NSObjectProtocol", "init"]
-- !private ["PSo16NSObjectProtocol", "instantiateViewControllerWithIdentifier"]
 - ["PSo16NSObjectProtocol", "label2"]
 - ["PSo16NSObjectProtocol", "label3"]
 - ["PSo16NSObjectProtocol", "m"]
@@ -512,15 +478,13 @@ depends-member:
 - ["PSo16NSObjectProtocol", "n6"]
 - ["PSo16NSObjectProtocol", "n7"]
 - ["PSo16NSObjectProtocol", "num"]
+- !private ["PSo16NSObjectProtocol", "performSegueWithIdentifier"]
 - ["PSo16NSObjectProtocol", "prepareForSegue"]
-- !private ["PSo16NSObjectProtocol", "presentViewController"]
 - !private ["PSo16NSObjectProtocol", "sendText"]
 - ["PSo16NSObjectProtocol", "sharedApplication"]
 - ["PSo16NSObjectProtocol", "shuffleArray"]
 - ["PSo16NSObjectProtocol", "shuffleBang"]
-- !private ["PSo16NSObjectProtocol", "storyboard"]
 - ["PSo16NSObjectProtocol", "str"]
-- ["PSo16NSObjectProtocol", "str2"]
 - !private ["PSo16NSObjectProtocol", "swap"]
 - ["PSo16NSObjectProtocol", "tapedNext"]
 - !private ["PSo16NSObjectProtocol", "text"]
@@ -593,14 +557,12 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "n6"]
 - ["PSo21UIAppearanceContainer", "n7"]
 - ["PSo21UIAppearanceContainer", "num"]
+- !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
 - ["PSo21UIAppearanceContainer", "prepareForSegue"]
-- !private ["PSo21UIAppearanceContainer", "presentViewController"]
 - !private ["PSo21UIAppearanceContainer", "sendText"]
 - ["PSo21UIAppearanceContainer", "shuffleArray"]
 - ["PSo21UIAppearanceContainer", "shuffleBang"]
-- !private ["PSo21UIAppearanceContainer", "storyboard"]
 - ["PSo21UIAppearanceContainer", "str"]
-- ["PSo21UIAppearanceContainer", "str2"]
 - !private ["PSo21UIAppearanceContainer", "swap"]
 - ["PSo21UIAppearanceContainer", "tapedNext"]
 - !private ["PSo21UIAppearanceContainer", "text"]
@@ -630,14 +592,12 @@ depends-member:
 - ["PSo18UIContentContainer", "n6"]
 - ["PSo18UIContentContainer", "n7"]
 - ["PSo18UIContentContainer", "num"]
+- !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
 - ["PSo18UIContentContainer", "prepareForSegue"]
-- !private ["PSo18UIContentContainer", "presentViewController"]
 - !private ["PSo18UIContentContainer", "sendText"]
 - ["PSo18UIContentContainer", "shuffleArray"]
 - ["PSo18UIContentContainer", "shuffleBang"]
-- !private ["PSo18UIContentContainer", "storyboard"]
 - ["PSo18UIContentContainer", "str"]
-- ["PSo18UIContentContainer", "str2"]
 - !private ["PSo18UIContentContainer", "swap"]
 - ["PSo18UIContentContainer", "tapedNext"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
@@ -667,14 +627,12 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "n6"]
 - ["PSo18UIFocusEnvironment", "n7"]
 - ["PSo18UIFocusEnvironment", "num"]
+- !private ["PSo18UIFocusEnvironment", "performSegueWithIdentifier"]
 - ["PSo18UIFocusEnvironment", "prepareForSegue"]
-- !private ["PSo18UIFocusEnvironment", "presentViewController"]
 - !private ["PSo18UIFocusEnvironment", "sendText"]
 - ["PSo18UIFocusEnvironment", "shuffleArray"]
 - ["PSo18UIFocusEnvironment", "shuffleBang"]
-- !private ["PSo18UIFocusEnvironment", "storyboard"]
 - ["PSo18UIFocusEnvironment", "str"]
-- ["PSo18UIFocusEnvironment", "str2"]
 - !private ["PSo18UIFocusEnvironment", "swap"]
 - ["PSo18UIFocusEnvironment", "tapedNext"]
 - !private ["PSo18UIFocusEnvironment", "text"]
@@ -688,7 +646,6 @@ depends-member:
 - ["CSo11UIResponder", "UIAlertView"]
 - ["CSo11UIResponder", "UIApplication"]
 - ["CSo11UIResponder", "UILabel"]
-- !private ["CSo11UIResponder", "UIStoryboard"]
 - ["CSo11UIResponder", "UIStoryboardSegue"]
 - !private ["CSo11UIResponder", "UInt32"]
 - !private ["CSo11UIResponder", "ViewController3"]
@@ -710,15 +667,13 @@ depends-member:
 - ["CSo11UIResponder", "n6"]
 - ["CSo11UIResponder", "n7"]
 - ["CSo11UIResponder", "num"]
+- !private ["CSo11UIResponder", "performSegueWithIdentifier"]
 - ["CSo11UIResponder", "prepareForSegue"]
-- !private ["CSo11UIResponder", "presentViewController"]
 - !private ["CSo11UIResponder", "sendText"]
 - ["CSo11UIResponder", "sharedApplication"]
 - ["CSo11UIResponder", "shuffleArray"]
 - ["CSo11UIResponder", "shuffleBang"]
-- !private ["CSo11UIResponder", "storyboard"]
 - ["CSo11UIResponder", "str"]
-- ["CSo11UIResponder", "str2"]
 - !private ["CSo11UIResponder", "swap"]
 - ["CSo11UIResponder", "tapedNext"]
 - !private ["CSo11UIResponder", "text"]
@@ -744,21 +699,17 @@ depends-member:
 - ["PSo16UIStateRestoring", "n6"]
 - ["PSo16UIStateRestoring", "n7"]
 - ["PSo16UIStateRestoring", "num"]
+- !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
 - ["PSo16UIStateRestoring", "prepareForSegue"]
-- !private ["PSo16UIStateRestoring", "presentViewController"]
 - !private ["PSo16UIStateRestoring", "sendText"]
 - ["PSo16UIStateRestoring", "shuffleArray"]
 - ["PSo16UIStateRestoring", "shuffleBang"]
-- !private ["PSo16UIStateRestoring", "storyboard"]
 - ["PSo16UIStateRestoring", "str"]
-- ["PSo16UIStateRestoring", "str2"]
 - !private ["PSo16UIStateRestoring", "swap"]
 - ["PSo16UIStateRestoring", "tapedNext"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
-- !private ["CSo12UIStoryboard", "instantiateViewControllerWithIdentifier"]
 - !private ["CSo17UIStoryboardSegue", "destinationViewController"]
-- !private ["CSo17UIStoryboardSegue", "identifier"]
 - !private ["PSo18UITraitEnvironment", "Int"]
 - !private ["PSo18UITraitEnvironment", "String"]
 - ["PSo18UITraitEnvironment", "UIAlertView"]
@@ -780,14 +731,12 @@ depends-member:
 - ["PSo18UITraitEnvironment", "n6"]
 - ["PSo18UITraitEnvironment", "n7"]
 - ["PSo18UITraitEnvironment", "num"]
+- !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
 - ["PSo18UITraitEnvironment", "prepareForSegue"]
-- !private ["PSo18UITraitEnvironment", "presentViewController"]
 - !private ["PSo18UITraitEnvironment", "sendText"]
 - ["PSo18UITraitEnvironment", "shuffleArray"]
 - ["PSo18UITraitEnvironment", "shuffleBang"]
-- !private ["PSo18UITraitEnvironment", "storyboard"]
 - ["PSo18UITraitEnvironment", "str"]
-- ["PSo18UITraitEnvironment", "str2"]
 - !private ["PSo18UITraitEnvironment", "swap"]
 - ["PSo18UITraitEnvironment", "tapedNext"]
 - !private ["PSo18UITraitEnvironment", "text"]
@@ -802,7 +751,6 @@ depends-member:
 - ["CSo16UIViewController", "UIAlertView"]
 - ["CSo16UIViewController", "UIApplication"]
 - ["CSo16UIViewController", "UILabel"]
-- !private ["CSo16UIViewController", "UIStoryboard"]
 - ["CSo16UIViewController", "UIStoryboardSegue"]
 - !private ["CSo16UIViewController", "UInt32"]
 - !private ["CSo16UIViewController", "ViewController3"]
@@ -823,14 +771,12 @@ depends-member:
 - ["CSo16UIViewController", "n6"]
 - ["CSo16UIViewController", "n7"]
 - ["CSo16UIViewController", "num"]
+- !private ["CSo16UIViewController", "performSegueWithIdentifier"]
 - ["CSo16UIViewController", "prepareForSegue"]
-- !private ["CSo16UIViewController", "presentViewController"]
 - !private ["CSo16UIViewController", "sendText"]
 - ["CSo16UIViewController", "shuffleArray"]
 - ["CSo16UIViewController", "shuffleBang"]
-- !private ["CSo16UIViewController", "storyboard"]
 - ["CSo16UIViewController", "str"]
-- ["CSo16UIViewController", "str2"]
 - !private ["CSo16UIViewController", "swap"]
 - ["CSo16UIViewController", "tapedNext"]
 - ["CSo16UIViewController", "viewDidLoad"]
@@ -845,7 +791,6 @@ depends-member:
 - ["C6jinrou15ViewController2", "UIAlertView"]
 - ["C6jinrou15ViewController2", "UIApplication"]
 - ["C6jinrou15ViewController2", "UILabel"]
-- !private ["C6jinrou15ViewController2", "UIStoryboard"]
 - ["C6jinrou15ViewController2", "UIStoryboardSegue"]
 - !private ["C6jinrou15ViewController2", "UInt32"]
 - !private ["C6jinrou15ViewController2", "ViewController3"]
@@ -866,13 +811,11 @@ depends-member:
 - ["C6jinrou15ViewController2", "n6"]
 - ["C6jinrou15ViewController2", "n7"]
 - ["C6jinrou15ViewController2", "num"]
+- !private ["C6jinrou15ViewController2", "performSegueWithIdentifier"]
 - ["C6jinrou15ViewController2", "prepareForSegue"]
-- !private ["C6jinrou15ViewController2", "presentViewController"]
 - ["C6jinrou15ViewController2", "shuffleArray"]
 - ["C6jinrou15ViewController2", "shuffleBang"]
-- !private ["C6jinrou15ViewController2", "storyboard"]
 - ["C6jinrou15ViewController2", "str"]
-- ["C6jinrou15ViewController2", "str2"]
 - !private ["C6jinrou15ViewController2", "swap"]
 - ["C6jinrou15ViewController2", "tapedNext"]
 - ["C6jinrou15ViewController2", "viewDidLoad"]
@@ -922,7 +865,6 @@ depends-member:
 - !private ["PSs21_ObjectiveCBridgeable", "count"]
 - !private ["PSs21_ObjectiveCBridgeable", "init"]
 - !private ["PSs21_ObjectiveCBridgeable", "subscript"]
-- !private ["VSs26_OptionalNilComparisonType", "deinit"]
 - !private ["PSs22_RandomAccessAmbiguity", "Distance"]
 - !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
 - !private ["PSs22_RandomAccessAmbiguity", "_DisabledRangeIndex"]
@@ -1012,7 +954,6 @@ depends-nominal:
 - !private "CSo7UILabel"
 - "CSo11UIResponder"
 - "PSo16UIStateRestoring"
-- !private "CSo12UIStoryboard"
 - !private "CSo17UIStoryboardSegue"
 - "PSo18UITraitEnvironment"
 - "CSo6UIView"
@@ -1035,7 +976,6 @@ depends-nominal:
 - !private "PSs22_IntegerArithmeticType"
 - !private "PSs12_IntegerType"
 - "PSs21_ObjectiveCBridgeable"
-- !private "VSs26_OptionalNilComparisonType"
 - !private "PSs22_RandomAccessAmbiguity"
 - "PSs12_Reflectable"
 - !private "PSs18_SignedIntegerType"
@@ -1043,11 +983,11 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
-interface-hash: "dae082b1cb0f1fb16043406c9306d55e"
+interface-hash: "429fb94d9fb154bde7dc694410ab4500"

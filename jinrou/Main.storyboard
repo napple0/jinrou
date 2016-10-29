@@ -8,7 +8,7 @@
         <!--View Controller1-->
         <scene sceneID="rn3-Ae-FI4">
             <objects>
-                <viewController id="sha-rF-gVD" customClass="ViewController1" customModule="jinrou" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="sha-rF-gVD" customClass="ViewController1" customModule="jinrou" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="igD-Vd-ALt"/>
                         <viewControllerLayoutGuide type="bottom" id="gx4-mG-RA2"/>
@@ -34,6 +34,7 @@ Are you werewolf?</string>
                                 <state key="normal" title="START"/>
                                 <connections>
                                     <action selector="tapedStrat:" destination="sha-rF-gVD" eventType="touchUpInside" id="arh-yN-yqU"/>
+                                    <segue destination="xbT-S4-l25" kind="presentation" identifier="go2" id="ijE-PU-74X"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="26A-rP-rgx">
@@ -70,12 +71,12 @@ Are you werewolf?</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vky-1X-epG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="429" y="71"/>
+            <point key="canvasLocation" x="268" y="70"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="Rjx-gS-hPA">
             <objects>
-                <viewController storyboardIdentifier="go2" id="xbT-S4-l25" customClass="ViewController2" customModule="jinrou" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="go2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xbT-S4-l25" customClass="ViewController2" customModule="jinrou" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0aX-AZ-AFF"/>
                         <viewControllerLayoutGuide type="bottom" id="UsN-SZ-5hT"/>
@@ -102,6 +103,7 @@ Are you werewolf?</string>
                                 <state key="normal" title="NEXT"/>
                                 <connections>
                                     <action selector="tapedNext:" destination="xbT-S4-l25" eventType="touchUpInside" id="63a-6l-hKl"/>
+                                    <segue destination="gea-XF-1su" kind="presentation" identifier="go3" id="GZp-X7-3ej"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -111,17 +113,16 @@ Are you werewolf?</string>
                     <connections>
                         <outlet property="label2" destination="D76-cj-ejf" id="gwW-ei-G89"/>
                         <outlet property="label3" destination="s6b-f3-qMa" id="4jb-TQ-SEs"/>
-                        <segue destination="gea-XF-1su" kind="show" identifier="segue" id="gdw-jY-yM7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jtU-co-YIG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="860" y="71"/>
+            <point key="canvasLocation" x="723.75" y="70.774647887323937"/>
         </scene>
         <!--View Controller3-->
         <scene sceneID="HkG-rX-in6">
             <objects>
-                <viewController storyboardIdentifier="go3" id="gea-XF-1su" customClass="ViewController3" customModule="jinrou" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="go3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gea-XF-1su" customClass="ViewController3" customModule="jinrou" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2YO-z9-Oqw"/>
                         <viewControllerLayoutGuide type="bottom" id="FEo-Oo-wIP"/>
@@ -139,6 +140,7 @@ Are you werewolf?</string>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="A2H-bt-fpJ"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="jobLabel" destination="5zC-8x-kXa" id="56w-Ug-4hO"/>
@@ -146,7 +148,7 @@ Are you werewolf?</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tVd-Fj-EaR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1275" y="71"/>
+            <point key="canvasLocation" x="1149" y="70"/>
         </scene>
     </scenes>
     <resources>

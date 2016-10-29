@@ -6,15 +6,16 @@ provides-nominal:
 provides-member:
 - ["C6jinrou15ViewController3", ""]
 provides-dynamic-lookup:
+- "jobLabel"
+- "sendText"
 - "didReceiveMemoryWarning"
 - "viewDidLoad"
-- "sendText"
-- "jobLabel"
 depends-top-level:
-- "UIViewController"
 - "UILabel"
-- "ViewController3"
+- "String"
 - "StringLiteralType"
+- "UIViewController"
+- "ViewController3"
 depends-member:
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]
 - ["PSs9AnyObject", "init"]
@@ -64,6 +65,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "sendText"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "String"]
 - ["CSo8NSObject", "UILabel"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
 - ["CSo8NSObject", "init"]
@@ -103,6 +105,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
 - !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "String"]
 - ["CSo11UIResponder", "UILabel"]
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
 - ["CSo11UIResponder", "init"]
@@ -124,6 +127,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
 - !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "String"]
 - ["CSo16UIViewController", "UILabel"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
 - ["CSo16UIViewController", "init"]
@@ -131,6 +135,7 @@ depends-member:
 - ["CSo16UIViewController", "sendText"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
+- ["C6jinrou15ViewController3", "String"]
 - ["C6jinrou15ViewController3", "UILabel"]
 - ["C6jinrou15ViewController3", "deinit"]
 - ["C6jinrou15ViewController3", "didReceiveMemoryWarning"]
@@ -167,11 +172,11 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
-interface-hash: "d6a9c8be8201c5390167f42cdb460fad"
+interface-hash: "6ff858e8eb453b3df4eb9ce4e06c3755"

@@ -124,7 +124,7 @@ SWIFT_CLASS("_TtC6jinrou15ViewController1")
 - (void)didReceiveMemoryWarning;
 - (IBAction)tapedPlusButton:(id __nonnull)sender;
 - (IBAction)tapedMinusButton:(id __nonnull)sender;
-- (IBAction)tapedStrat:(id __nonnull)sender;
+- (IBAction)tapedStrat:(UIButton * __nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -138,7 +138,6 @@ SWIFT_CLASS("_TtC6jinrou15ViewController2")
 @property (nonatomic, weak) IBOutlet UILabel * __null_unspecified label3;
 @property (nonatomic) NSInteger count;
 @property (nonatomic, copy) NSString * __nonnull str;
-@property (nonatomic, copy) NSString * __nonnull str2;
 @property (nonatomic, copy) NSArray<NSNumber *> * __nonnull n3;
 @property (nonatomic, copy) NSArray<NSNumber *> * __nonnull n4;
 @property (nonatomic, copy) NSArray<NSNumber *> * __nonnull n5;
@@ -160,8 +159,8 @@ SWIFT_CLASS("_TtC6jinrou15ViewController2")
 
 SWIFT_CLASS("_TtC6jinrou15ViewController3")
 @interface ViewController3 : UIViewController
-@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified jobLabel;
 @property (nonatomic, copy) NSString * __nonnull sendText;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified jobLabel;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;

@@ -6,26 +6,26 @@ provides-nominal:
 provides-member:
 - ["C6jinrou11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationWillResignActive"
+- "message"
 - "application"
+- "applicationWillResignActive"
+- "applicationWillTerminate"
+- "window"
+- "applicationDidBecomeActive"
 - "applicationWillEnterForeground"
 - "applicationDidEnterBackground"
-- "message"
-- "applicationDidBecomeActive"
-- "window"
-- "applicationWillTerminate"
 depends-top-level:
-- "NSObject"
+- "FloatLiteralType"
+- !private "BooleanLiteralType"
 - "AnyObject"
+- "UIWindow"
+- "UIResponder"
+- "NSObject"
+- "AppDelegate"
+- "UIApplication"
 - "UIApplicationDelegate"
 - "Bool"
 - "IntegerLiteralType"
-- "UIResponder"
-- !private "BooleanLiteralType"
-- "UIWindow"
-- "FloatLiteralType"
-- "AppDelegate"
-- "UIApplication"
 depends-member:
 - ["PSs9AnyObject", "application"]
 - ["PSs9AnyObject", "applicationDidBecomeActive"]
@@ -213,11 +213,11 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
 interface-hash: "0b190483520a4fec077aa6a463cbdaea"
